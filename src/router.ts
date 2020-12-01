@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Table from './views/Table.vue'
+import Content from './views/Content.vue'
 
 Vue.use(Router)
 
@@ -10,8 +10,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'table',
-      component: Table
+      name: 'content',
+      component: Content
     }
   ]
 })
